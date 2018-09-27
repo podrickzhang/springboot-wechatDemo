@@ -58,8 +58,6 @@ public class AreaController {
 	/**
 	 * 添加区域信息
 	 * 
-	 * @param areaStr
-	 * @param request
 	 * @return
 	 * @throws IOException
 	 * @throws JsonMappingException
@@ -77,8 +75,6 @@ public class AreaController {
 	/**
 	 * 修改区域信息，主要修改名字
 	 * 
-	 * @param areaStr
-	 * @param request
 	 * @return
 	 * @throws IOException
 	 * @throws JsonMappingException
@@ -99,6 +95,11 @@ public class AreaController {
 		// 修改区域信息
 		modelMap.put("success", areaService.deleteArea(areaId));
 		return modelMap;
+	}
+
+	@RequestMapping(value="/probe",method = RequestMethod.GET)
+	public String probe(){
+		return "success";
 	}
 
 }

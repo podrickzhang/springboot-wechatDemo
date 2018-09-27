@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.imooc</groupId>
-	<artifactId>demo</artifactId>
+	<artifactId>springboot-wechat</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>demo</name>
+	<name>springboot-wechat</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
